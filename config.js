@@ -21,7 +21,7 @@
 
 
 module.exports = {
-  TOKEN: "",
+  TOKEN: process.env.TOKEN,
   ownerID: ["1149353212680339537", "1242723054103035936"],
   botInvite: "https://discord.com/oauth2/authorize?client_id=1255426201204424746&permissions=8&integration_type=0&scope=bot",
   supportServer: "https://discord.gg/pghost",
